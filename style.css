@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+
+
+}
+
+.home-img {
+    width: 90%;
+    margin: 50px;
+}
+
+.header {
+    font-family: 'Lato', arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 85px;
+    letter-spacing: 1px;
+    margin: 30px;
+}
+
+.header-desc {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(247, 247, 247);
+    font-family: 'Lusitana', Georgia, serif;
+}
+
+.products-header {
+    text-transform: uppercase;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 20px;
+    margin-left: 60px;
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+
+.product-imgs {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+}
+
+/* .product-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+
+hr {
+    width: 80%;
+    margin-left: 60px;
+    color: pink;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+}
+
+.product-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    position:relative;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    /* position text */
+    left: 20px;
+    /* right: 20px; */
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.4;
+
+    background: rgba(0, 0, 0,0.1);
+    /* readable overlay */
+    padding: 12px;
+    border-radius: 8px;
+    width:60%;
+}
+
+.download-catalogue {
+    text-align: center;
+    padding: 80px 20px;
+    font-family: 'Lusitana', Georgia, serif;
+}
+
+.download-catalogue h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.download-catalogue p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.download-catalogue button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.download-catalogue button:hover {
+    opacity: 0.85;
+}
+
+.contact-section {
+    padding: 80px 60px;
+    font-family: 'Lusitana', Georgia, serif;
+}
+
+.contact-details
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-section h2 {
+    font-family: 'Lato', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-left:60px;
+}
+
+.contact-section h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 30px 0 10px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-section > h3,
+.contact-section > p {
+    text-align: center;
+}
+
+
+.address,
+.working-hours {
+    width: 40%;
+}
+
+.address h3,
+.working-hours h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact-section .address,
+.contact-section .working-hours {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.contact-section .address {
+    margin-left: 10%;
+}
+
+.contact-section .working-hours {
+    margin-left: 10%;
+}
+
+.working-hours p {
+    margin: 4px 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    color: #555;
+}
